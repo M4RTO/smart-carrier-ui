@@ -1,0 +1,21 @@
+#fetching-component {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, .7);
+  top: 0;
+  left: 0;
+  z-index: 10000;
+}
+
+#fetching-component span{
+  
+  background: url(http://http2.mlstatic.com/secure/org-img/ch/assets/0.3/loading-big.gif) no-repeat;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 50%;
+  left: 50%;
+  margin-left: -25px;
+  margin-top: -25px;
+}

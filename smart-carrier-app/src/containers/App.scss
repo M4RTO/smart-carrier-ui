@@ -1,0 +1,9 @@
+@import './common/common.scss';
+@import '../components/shipment/shipment.scss';
+
+
+.main-panel {
+  position: relative;
+  float: right;
+  width: calc(100% - 260px);
+  min-height: 100%; }
